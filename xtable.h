@@ -4,6 +4,7 @@
 
 #ifndef PROYECTOBD2_XTABLE_H
 #define PROYECTOBD2_XTABLE_H
+#include <vector>
 
 using namespace::std;
 
@@ -15,7 +16,7 @@ struct node{
 };
 
 struct table{
-    string name_table;
+    //string name_table;
     vector<node*>elements;
 };
 

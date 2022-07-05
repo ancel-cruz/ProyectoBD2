@@ -1,8 +1,13 @@
 #include <iostream>
+#include "btree.h"
 
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << std::endl;
+
+    cout<<"Hola mundo"<<endl;
+
+    menu_btree();
+
     return 0;
 }

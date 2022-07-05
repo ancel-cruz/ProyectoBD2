@@ -4,6 +4,8 @@
 #define MAX 4
 #define MIN 2
 
+using namespace std;
+
 struct btreeNode {
     int val[MAX+1], count;
     btreeNode *link[MAX + 1];

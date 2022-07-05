@@ -1,10 +1,8 @@
-//
-// Created by Alain Cruz on 4/07/22.
-//
-
 #ifndef PROYECTOBD2_BNODE_H
 #define PROYECTOBD2_BNODE_H
 
+#include "xtable.h"
+using namespace std;
 
 int grade = 3;
 
