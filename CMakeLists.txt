@@ -3,4 +3,4 @@ project(ProyectoBD2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProyectoBD2 main.cpp)
+add_executable(ProyectoBD2 main.cpp bnode.h)
