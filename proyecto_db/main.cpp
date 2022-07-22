@@ -31,7 +31,8 @@ void example_btree_run(){
     
     //Types Datas..
     int total2 = 8;
-    types* t_tabla2 = new types[8]{type_int,type_str,type_int,type_str,type_str,type_str,type_str,type_int};
+    types* t_tabla2 = new types[8]{type_int,type_str,type_int,type_str,type_str,type_str,
+                                   type_str,type_int};
     tabla2.set_types(t_tabla2,8);
     //Read File..
     string url2 = "../data4.csv";
@@ -44,7 +45,7 @@ void example_btree_run(){
 
 int main(int argc, const char * argv[]) {
 
-    
+    example_btree_run();
     
     
     return (0);

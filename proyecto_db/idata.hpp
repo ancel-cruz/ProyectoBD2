@@ -6,7 +6,7 @@
 using namespace::std;
 
 struct idata{
-    vector<void*>data;
+    vector<void*> data;
 };
 
 #endif /* idata_hpp */

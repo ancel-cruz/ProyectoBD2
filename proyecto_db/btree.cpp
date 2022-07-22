@@ -85,10 +85,10 @@ void btree::read_file(string url){
     stringstream str(line);
     getline(str,word,','); // reaad first line..
     while (getline(myFile,line)) {
-        stringstream str(line);
-        idata* reg = new idata[size_col];
+        stringstream str2(line);
+        idata* reg = new idata;
         int itype = 0;
-        while (getline(str,word,',')) {
+        while (getline(str2,word,',')) {
             void* pv;
             cout<<word<<endl;
             if (0==type_data[itype]) { //type_int
