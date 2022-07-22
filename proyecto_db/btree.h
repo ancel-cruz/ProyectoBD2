@@ -2,6 +2,7 @@
 #define PROYECTOBD2_BTREE_H
 #include <iostream>
 #include <string>
+#include <cstring>
 #include <fstream>
 #include <sstream>
 #include "bnode.h"

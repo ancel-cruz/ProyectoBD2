@@ -15,7 +15,7 @@ void example_btree_run(){
     tabla1.set_types(t_tabla1,4);
     
     //Read File..
-    string url = "/Users/acruzch/Desktop/proyecto_db/demo.csv";
+    string url = "../demo.csv";
     tabla1.read_file(url);
     
     //Print data..
@@ -34,7 +34,7 @@ void example_btree_run(){
     types* t_tabla2 = new types[8]{type_int,type_str,type_int,type_str,type_str,type_str,type_str,type_int};
     tabla2.set_types(t_tabla2,8);
     //Read File..
-    string url2 = "/Users/acruzch/Desktop/proyecto_db/data4.csv";
+    string url2 = "../data4.csv";
     tabla2.read_file(url2);
     //Print data..
     tabla2.traverse();
